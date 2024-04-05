@@ -1,14 +1,11 @@
-import CardProps from "./Card"
+import { CardProps } from "./Card"
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
-import Avatar from '@mui/material/Avatar';
-
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 
-
 export default function CardCustom(props: CardProps) {
-    const card_data = props.data
+    const card_data = props.card
     return (
         <Card variant="outlined">
              <CardMedia

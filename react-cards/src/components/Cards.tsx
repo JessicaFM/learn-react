@@ -1,3 +1,4 @@
+import { JoinFullTwoTone } from '@mui/icons-material';
 import * as card_example from '../cards_example.ts'
 import CardCustom from './card/CardCustom.tsx'
 import Box from '@mui/material/Box';
@@ -12,7 +13,7 @@ export default function Cards() {
                         return (
                             <Grid item xs={6} md={3} key={data.id}>
                                 <CardCustom
-                                    data={data}
+                                    card={data}
                                 />
                             </Grid>
                         )
@@ -21,4 +22,4 @@ export default function Cards() {
             </Box>
         </>
     )
-}
+}JoinFullTwoTone
